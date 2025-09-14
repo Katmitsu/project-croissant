@@ -28,4 +28,7 @@ p {
 footer {
   color: var(--link-color);
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
