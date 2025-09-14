@@ -8,6 +8,7 @@ body {
   color: var(--main-text-color);
   font-family: Arial, sans-serif;
   margin: 20px;
+  text-align: center;
 }
 h1 {
   color: var(--link-color);
@@ -15,5 +16,16 @@ h1 {
 
 p {
   line-height: 1.6;
-  text-align: justify;
+  text-align: center;
+}
+
+.croissant {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  color: var(--link-color);
+  text-decoration: none;
 }
